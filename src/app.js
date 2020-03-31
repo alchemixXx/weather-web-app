@@ -28,8 +28,8 @@ app.get('/', (req, res) => {
 
 app.get('/help', (req, res) => {
   res.render('help', {
-    title: 'Title for help',
-    message: 'some regular message',
+    title: 'You need help? REALLY???',
+    message: 'What do you want to see here?\nJust go to the home page and enter your city. And then you will see the weather forecast\nYou can do it :)',
     name: 'Pavel AlchemixXx',
   });
 });
